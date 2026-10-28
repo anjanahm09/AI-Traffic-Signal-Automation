@@ -1,0 +1,71 @@
+
+# ==============================
+# Python cache and temporary files
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Training datasets and images
+# ==============================
+train/
+dataset/
+datasets/
+data/train/
+
+# ==============================
+# Large trained model files
+# ==============================
+*.weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# ==============================
+# Traffic videos and large media
+# ==============================
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ==============================
+# Databases and private credentials
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+
+# ==============================
+# IDE and operating system files
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Build and generated files
+# ==============================
+build/
+dist/
+*.tmp
+*.bak
